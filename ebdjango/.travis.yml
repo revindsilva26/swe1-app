@@ -1,1 +1,3 @@
-
+language: django
+django:
+-"4.2.5"
