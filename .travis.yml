@@ -8,9 +8,9 @@ install:
 
 script:
    # Replace with the command to run your tests or application
-  - python -m black . --check
-  - python -m flake8 --ignore=E303,E501 --max-line-length=88
-  - python -m coverage run manage.py test
+  - python3 -m black . --check
+  - python3 -m flake8 --ignore=E303,E501 --max-line-length=88
+  - python3 -m coverage run manage.py test
 
 env:
   global:
