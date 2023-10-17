@@ -16,7 +16,7 @@ deploy:
     secure: "DOmQ5nvauaTWOb3Eeo9aYF8PZi0aycpK7Fnk6qdPdWao9X/ado5vmd6NPc3S7PrekHHsNlYEI3nxqxHuK9P6w6bXZeCpr3Dg3wHmNnZw0TytSciEEdAqBzd5ba8KGJRP0M2BdOWb17jwYoavYOVNHsO4Jde4ST6gw8YfgMMHKxQs5zXl/S4eYLJ2PcGUbqyX+AlkqVA2H59UAn6d1CG8lc3P1bpR0TiHBcHHVeraEllvaslIuUnJTAz/V5jo9nSvPBjRmfKan/lW5sf+S7LnBG+zPn1JT7Dhmh76wh0BLDdDh4EHhHZe6ttbFAsNuh7OWQHB9XdDYBKAAV57RGiK5CNoVA2IG4LYBCdhJTrClpD9aguFBC9e4lCtHEgUef/1xGnHuxgSNrClhDKIvkfbArjKe+E89O+VUWnkSe2kN/bMx2Cgm0sqFAIqjz9d8Z56BiCE9CPnZgVVim81etmQzPjZjp1rkJQ1y9zLijNRxriiKBxfF2ZlXwEvRvGfMdgDtov88GvfH/Erweppc5u/AtXLFvQ5djuGsawcAH3VTchMc+qCxnBxH0YUktvanUvqLcJMmuqL5Gh4HQwUuE4ExrvIEpr/y1HEywU6K+FXMa65afvp8X44c6QAE54R7lgmQrVordDmInsw8xg5qhO9ZqQMFprriDLG5vXi47L73TU="
   region: us-east-1
   app: ebdjango
-  env: django-project
+  env: django-env
   bucket_name: elasticbeanstalk-us-east-1-662781481898
   on:
     all_branches: true
