@@ -27,3 +27,8 @@ deploy:
   app: "ebdjango"
   env: "django-project"
   bucket_name: "elasticbeanstalk-us-east-1-662781481898"
+  on:
+    branches:
+      only:
+        -main
+  
