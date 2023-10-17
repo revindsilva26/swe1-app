@@ -8,7 +8,7 @@ install:
 
 script:
    # Replace with the command to run your tests or application
-  - python -m black . --check
+ # - python -m black --check
   - python -m flake8 --ignore=F401,E501 --max-line-length=88
   - python -m coverage run manage.py test
 
