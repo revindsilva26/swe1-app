@@ -28,7 +28,6 @@ deploy:
   env: "django-project"
   bucket_name: "elasticbeanstalk-us-east-1-662781481898"
   on:
-    branches:
-      only:
-        -main
+    all_branches: true
+      
   
